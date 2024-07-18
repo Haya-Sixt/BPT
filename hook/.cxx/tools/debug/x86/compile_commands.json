@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/Workspace/♨️/BPT/hook/.cxx/Debug/b2b46e5o/x86",
+  "command": "C:\\Users\\azbmdk\\AppData\\Local\\Android\\Sdk\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android28 --sysroot=C:/Users/azbmdk/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dbpt_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles\\bpt.dir\\native-lib.cpp.o -c C:\\Workspace\\♨️\\BPT\\hook\\src\\main\\cpp\\native-lib.cpp",
+  "file": "C:\\Workspace\\♨️\\BPT\\hook\\src\\main\\cpp\\native-lib.cpp"
+}
+]

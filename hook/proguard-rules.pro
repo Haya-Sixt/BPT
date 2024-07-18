@@ -1,0 +1,1 @@
+-keep class il.hs.bpt.MainHook

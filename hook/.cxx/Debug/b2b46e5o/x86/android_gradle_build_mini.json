@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "C:\\Workspace\\♨️\\BPT\\hook\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\azbmdk\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\Workspace\\♨️\\BPT\\hook\\.cxx\\Debug\\b2b46e5o\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\azbmdk\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\Workspace\\♨️\\BPT\\hook\\.cxx\\Debug\\b2b46e5o\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "bpt::@6890427a1f51a3e7e1df": {
+      "artifactName": "bpt",
+      "abi": "x86",
+      "output": "C:\\Workspace\\♨️\\BPT\\hook\\build\\intermediates\\cxx\\Debug\\b2b46e5o\\obj\\x86\\libbpt.so",
+      "runtimeFiles": []
+    }
+  }
+}

@@ -1,0 +1,3 @@
+C:/Workspace/♨️/BPT/hook/.cxx/Debug/b2b46e5o/x86/CMakeFiles/bpt.dir
+C:/Workspace/♨️/BPT/hook/.cxx/Debug/b2b46e5o/x86/CMakeFiles/edit_cache.dir
+C:/Workspace/♨️/BPT/hook/.cxx/Debug/b2b46e5o/x86/CMakeFiles/rebuild_cache.dir
