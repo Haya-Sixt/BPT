@@ -36,16 +36,16 @@ class MainHook : IXposedHookLoadPackage, IXposedHookZygoteInit {
 
   external fun stringFromJNI(): String
 
-  companion object {
+  /*companion object {
     // Used to load the 'bpt' library on application startup.
     init {
-      System.loadLibrary("bpt")
+      System.loadLibrary("bpt")  // err: couldn't find "libbpt.so" in nativeLibraryDirectories=[/data/app/~~6kzomz_qEv0ZA4TXkZZwGA==/il.hs.bpt-pJdm9R_hrSZOVG8BwwFcwQ==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]]]
     }
-  }
+  }*/
 
   override fun handleLoadPackage(lpparam: XC_LoadPackage.LoadPackageParam) {
     Log.d(lpparam.processName + " started")
-    Log.d("stringFromJNI(): " + stringFromJNI()) // cpp test
+    //Log.d("stringFromJNI(): " + stringFromJNI()) // cpp test
 
     if (lpparam.packageName == "il.hs.bpt") return
     if (supportedPackages.contains(lpparam.packageName)) {
@@ -128,7 +128,9 @@ class MainHook : IXposedHookLoadPackage, IXposedHookZygoteInit {
   }
 
   override fun initZygote(startupParam: IXposedHookZygoteInit.StartupParam) {
+    Log.d("initZygote 0")
     Resource.init(startupParam.modulePath)
+    Log.d("initZygote 1")
     Resource.dpi()
   }
 

@@ -345,15 +345,19 @@ object Resource {
         Display::class.java, "updateDisplayInfoLocked",
         object : XC_MethodHook() {
           override fun afterHookedMethod(param: MethodHookParam) {
+            Log.d("dpi 0")
             if (!Chrome.isEdge) return
             val packageDPI = Consts.DPI_TABSTRIPE
             if (packageDPI > 0) {
+              Log.d("dpi 1")
               val mDisplayInfo = XposedHelpers.getObjectField(param.thisObject, "mDisplayInfo")
               XposedHelpers.setIntField(mDisplayInfo, "logicalDensityDpi", packageDPI)
+              Log.d("dpi 2")
             }
           }
         })
     } catch (t: Throwable) {
+      Log.d("dpi 3")
       XposedBridge.log(t)
     }
   }

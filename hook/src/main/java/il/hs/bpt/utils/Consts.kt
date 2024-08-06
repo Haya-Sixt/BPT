@@ -7,5 +7,5 @@ object Consts {
     const val PREFS = "ModSettings"
     const val PREF_DEFAULT = "default"
     const val PREF_DPI = "/dpi"
-    const val DPI_TABSTRIPE= 280
+    const val DPI_TABSTRIPE = 280
 }
